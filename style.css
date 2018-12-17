@@ -1,0 +1,126 @@
+body{
+    font-family:sans-serif;
+    background-color:white;
+}
+
+header{
+    background: #36424A;
+    padding: 20px;
+  
+    width: 100%;
+    
+    margin-bottom:30px;
+}
+header h1{
+    color:white;
+    margin-top:0;
+    float: left;
+    width: 25%;
+
+
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #000; 
+    font-weight: bolder; 
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:black;
+
+}
+
+ul,
+ol{
+    list-style: none;
+   
+}
+nav{
+    font-family: 'Karla', sans-serif;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 15px;
+    padding: 3px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 2s ease 0s;
+}
+
+nav li a:hover{
+    background-color: orange;
+
+}
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top:0x;  
+}
+
+#left-section{
+   float: left;
+    width: 40%;
+    margin-right: 110px;
+}
+
+.main-section{
+    float: left; 
+    width: 39%;
+    margin-right: 110px;
+    
+    
+}
+
+
+#more {display: none;}
+
+form{
+    clear: both;
+    position: relative;
+    top: 50px;
+    display:block;
+}
+form input[type="text"], input[type="email"]{
+    border:none;
+    border-bottom: 1px solid #000;
+    outline:none;
+    background:transparent;
+}
+
+#submit{
+   margin-left: 335%;
+   margin-top: 30%;
+    padding: 6px;
+    font-size: 20px;
+    color: white;
+    background: #36424A;
+}
+
+#submit:hover{
+    background:red;
+
+}
+
+#namefield{
+    padding: 6px;
+}
+
+
+footer{
+    clear:both;
+    margin-top: 100px;
+    background: #36424A;
+    padding: 25px;
+
+}
+footer p{
+    text-align: center;
+    color: #fff;
+}
